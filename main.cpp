@@ -34,5 +34,7 @@ void processLine(std::string line) {
 	int numPrint;
 	numPrint = int1 + int2;
 
-	
+	for(int i=0; i<numPrint; ++i) {
+		std::cout << string3 << std::endl;
+	}// end for	
 }// end processLine
