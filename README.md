@@ -8,8 +8,8 @@ input file
 initizalize str line
 while getline(file, line):
     processLine()
-```
 close file
+```
 ### processLine(line)
     first item = string1
     second = string2
